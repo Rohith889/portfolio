@@ -1,0 +1,17 @@
+import React,{Component }from "react";
+
+
+import "./Abort.css"
+ class Abort extends Component{
+     render(){
+     return(
+<div className="container">
+ 
+  <h3>HI,THIS IS ROHITH,AND I'M A ENGINEERING GRADUATE SPECIALIZED IN COMPUTER SCIENCE ENGINEERING WITH OVERALL CGPA:7.11 AND GOT PLACED IN A MNC.ALONG WITH MY DEGREE,FOR MY PROFFESIONAL ENCHANCEMENT I HAVE GONE THROUGH FULLSTACK DEVELOPER COURSE.AND LOOKING FOR A OPPORTUNITY IN A GOOD COMPANY TO ENCHANCE MY SKILLS .</h3>
+
+
+</div>
+     )}
+ }
+
+ export default Abort;

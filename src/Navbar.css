@@ -1,0 +1,18 @@
+.Nav{
+    padding-top: 0.75em;
+    max-width: 120px;
+    min-height: 100vh;
+   
+}
+
+  
+@media (min-width: 320px) and (max-width: 680px) {
+    .Nav {
+     display: flex;
+    }
+  
+  
+  
+  
+  }
+  

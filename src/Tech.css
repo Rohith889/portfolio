@@ -1,0 +1,118 @@
+
+.Card{
+    text-align: center;
+    
+    color: whitesmoke;
+    background-image: linear-gradient(-45deg, #0072dd, #0072dd, rgb(71, 227, 255),black);
+    background-size: 400% 400%;
+    position: relative;
+    
+    animation: change 5s ease-in-out infinite;
+  
+    font-family: sans-serif
+}
+
+.Card-3{
+    text-align: center;
+    
+    color: whitesmoke;
+    background-image: linear-gradient(-45deg, #0072dd, #0072dd, rgb(71, 227, 255),black);
+    background-size: 400% 400%;
+    position: relative;
+    
+    animation: change 5s ease-in-out infinite;
+  
+    font-family: sans-serif
+}
+
+
+.Card-2{
+    text-align: center;
+    
+    color: whitesmoke;
+    background-image: linear-gradient(-45deg, #ee7752, orange,tomato, #23d5ab);
+    background-size: 400% 400%;
+    position: relative;
+    
+    animation: change 5s ease-in-out infinite;
+  
+    font-family: sans-serif
+}
+.Card-4{
+    text-align: center;
+    
+    color: whitesmoke;
+    background-image: linear-gradient(-45deg, #ee7752,yellow,tomato, #23d5ab);
+    background-size: 400% 400%;
+    position: relative;
+    
+    animation: change 5s ease-in-out infinite;
+  
+    font-family: sans-serif
+}
+.Card-5{
+    text-align: center;
+    
+    color: whitesmoke;
+    background-image: linear-gradient(-45deg, #ee7752,rgb(41, 212, 41),rgb(20, 18, 18), #23d5ab);
+    background-size: 400% 400%;
+    position: relative;
+    
+    animation: change 5s ease-in-out infinite;
+  
+    font-family: sans-serif
+}
+.Card-6{
+    text-align: center;
+    
+    color: whitesmoke;
+    background-image: linear-gradient(-45deg, #ee7752,blue,royalblue, #23d5ab);
+    background-size: 400% 400%;
+    position: relative;
+    
+    animation: change 5s ease-in-out infinite;
+  
+    font-family: sans-serif
+}
+
+
+
+
+
+
+@keyframes change {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 50% 100%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+.App-logo {
+    height: 20vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .row{
+      background-color: #343a40;
+  }
+  

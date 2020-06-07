@@ -1,0 +1,49 @@
+.row{
+    height:50vh;
+    background-color: black;
+    margin:0;
+    padding:0;
+   
+    color:whitesmoke;
+}
+.col-sm-4{
+    width: 50%;
+    height:100%;
+    box-sizing:border-box;
+    background-color: #2196f3;
+    padding-top: 150px;
+
+}
+.name{
+ 
+    padding-top: 150px;
+    text-align: left;
+  }
+  .BY{
+    padding-top: 25px;
+    padding-left: 250px;
+
+  }
+  
+.col-sm-6{
+    width: 50%;
+    height:100%;
+    box-sizing:border-box;
+    background-color:black;
+    border-left: 100px solid #2196f3;
+    border-bottom: 50vh solid transparent;
+
+
+}
+.col-sm-2{
+    width: 50%;
+    height:100%;
+    box-sizing:border-box;
+    background-color: #2196f3;
+
+}
+
+.Home{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+}
