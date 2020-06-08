@@ -13,7 +13,7 @@ const Contact = () => {
     <div className="col-7 offset-3">
       <div className="form-container">
         <div className="form-inside">
-          <Form action="mailto:satya.devabhaktineni999.com"method="POST">
+          <Form action="mailto:rohithreddy889@gmail.com"method="POST">
             <Form.Group controlId="exampleForm.ControlInput1">
               <Form.Label className="contact-title">Name</Form.Label>
               <Form.Control
